@@ -5,11 +5,11 @@ import "../../styles/home.css";
 export const Home = () => (
 	<div className="container-fluid">
 		<div className="d-flex align-content-center justify-content-center mb-3 mt-3 py-4 jumbo rounded-3">
-			<div className="container-fluid align-content-center ms-4">
-				<h4 className="py-2 ps-5 fw-bold">Mis Cursos</h4>
+			<div className="container-fluid align-content-center">
+				<h4 className="py-2 ps-5 ms-5 fs-2 fw-bold">Mis Cursos</h4>
 			</div>
 		</div>
-		<div className="continer-fluid d-flex ps-5 ms-4">
+		<div className="continer-fluid d-flex ps-5 ms-5">
 			<div>
 				<div className="card" style={{ width: '20rem' }}>
 					<div className="card-header fw-bold">
@@ -31,11 +31,11 @@ export const Home = () => (
 			</div>
 		</div>
 		<div className="d-flex align-content-center justify-content-center mb-3 mt-3 py-4 jumbo rounded-3">
-			<div className="container-fluid align-content-center ms-4">
-				<h4 className="py-2 ps-5 fw-bold">Mis Profesores</h4>
+			<div className="container-fluid align-content-center">
+				<h4 className="py-2 ps-5 ms-5 fs-2 fw-bold">Mis Profesores</h4>
 			</div>
 		</div>
-		<div className="continer-fluid d-flex ps-5 ms-4">
+		<div className="continer-fluid d-flex ps-5 ms-5">
 			<div className="card" style={{ width: '20rem' }}>
 				<div className="container card-header fw-bold">
 					<div className="row">
@@ -59,11 +59,11 @@ export const Home = () => (
 			</div>
 		</div>
 		<div className="d-flex align-content-center justify-content-center mb-3 mt-3 py-4 jumbo rounded-3">
-			<div className="container-fluid align-content-center ms-4">
-				<h4 className="py-2 ps-5 fw-bold">Mi próximo pago</h4>
+			<div className="container-fluid align-content-center">
+				<h4 className="py-2 ps-5 ms-5 fs-2 fw-bold">Mi próximo pago</h4>
 			</div>
 		</div>
-		<div className="continer-fluid d-flex ps-5 ms-4">
+		<div className="continer-fluid d-flex ps-5 ms-5">
 			<div className="card" style={{ width: '20rem' }}>
 				<div className="container d-flex card-body">
 					<table className="table table-borderless">
