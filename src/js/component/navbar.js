@@ -1,13 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../img/logo.png";
 
 export const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg bg-white">
 			<div className="container-fluid d-flex justify-content-between align-content-center">
 				<div>
-					<img className="logo" src={logo}/>
+					<img className="logo" src="https://i.imgur.com/fkBV2BP.png"/>
 					<span className="ms-2 fs-5">Greiza García</span>
 				</div>
 				<div>

@@ -1,7 +1,6 @@
 import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
-import professor1 from "../../img/professor1.jpeg";
 
 export const Home = () => (
 	<div className="container-fluid">
@@ -48,7 +47,7 @@ export const Home = () => (
 						</div>
 					</div>
 				</div>
-				<img src={professor1} className="card-img-top" />
+				<img src="https://i.imgur.com/mJV2l8W.jpeg" className="card-img-top" />
 				<div className="card-body">
 					<table className="table table-borderless">
 						<tr>
